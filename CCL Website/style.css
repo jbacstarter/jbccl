@@ -1,0 +1,389 @@
+
+/* Media Queries */
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+@media 
+  (max-device-width: 218px)
+  and (max-device-height: 281px) { 
+  }
+  /* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.body {
+    overflow: hidden;
+
+}
+.topcontainer {
+    background: rgb(2,0,212);
+    background: linear-gradient(135deg, rgba(2,0,212,1) 2%, rgba(255,255,255,1) 7%, rgba(255,255,255,1) 90%, rgba(15,15,199,1) 100%);
+    min-height: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+}
+.homebtn,.blogbtn,.workbtn,.aboutusbtn {
+    color: gray;
+    text-decoration: none;
+    position: relative;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homebtn {
+    left:30rem;
+}
+.blogbtn {
+    left: 33rem;
+}
+.workbtn {
+    left: 35rem;
+}
+.aboutusbtn {
+    left: 37rem;
+}
+#btn:hover {
+    background: lightskyblue;
+    color: orange;
+}
+
+.ccl_logo {
+    max-width: 10vw;
+    height: 100px;
+    position: relative;
+    left: 100px;
+}
+.cclcentrextxt {
+    position: absolute;
+    left: 15rem;
+}
+.officialsitetxt {
+    position: absolute;
+    left: 25rem;
+    top: 2.8rem;
+}
+
+/* This is the start of Blog page*/
+.blogcontainer {
+    background-image: url("https://scontent.fceb3-1.fna.fbcdn.net/v/t1.6435-9/75553103_1670561043075154_1832950157688176640_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=JU11gHqPtgAAX8VjvtH&_nc_ht=scontent.fceb3-1.fna&oh=00_AT-FIRoBsCQW4lZSIiuNOUMD9V_qzoqvFg1X2OlTI2LrHw&oe=62E56B62");
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position: center center;    
+    background-attachment: fixed;
+    
+    height: auto;
+    z-index: -1;
+    filter: blur(0.1px);
+    display: flex;
+    justify-content: center;
+
+}
+
+.glasscontainer {
+    max-width: 100%;
+    height: 500vh;
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#glass {
+    background: rgba(6, 5, 5, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    border: 1px solid rgba(6, 5, 5, 0.61);
+    z-index: 1;
+    position: absolute;
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.glass1 {
+    top: 3rem;
+}
+
+
+.imgs {
+    max-width: 35vw;
+    height: auto;
+    image-rendering: optimizeQuality;
+}
+.glass2 {
+    top: 40rem;
+}
+.glass3 {
+    top: 75rem;
+}
+/* end of Blog style page */
+
+/* Start of Home background page */
+ 
+.midcontainer {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    z-index: -1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: 150vh;
+}
+.backgroundsection {
+    width: 100%;
+    height: 150vh;
+    background-image: url(https://scontent.fceb3-1.fna.fbcdn.net/v/t39.30808-6/274910102_347749907361207_6466337671254056328_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_ohc=C7h0SCOk6m0AX958WXw&_nc_ht=scontent.fceb3-1.fna&oh=00_AT-V9pfYO8J1d4TRZjRIycFmCk8KvcE8_ZMs_s2Il2uQkw&oe=62C5419A);
+    background-size: 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.thirdcontainer {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(0,58,127,1) 100%);
+    width: 100%;
+    height: 100vh;
+    border: none;
+
+}
+
+
+
+/* Start of work.html */
+    .workmidcontainer {
+        max-width: 100%;
+        height: 100vh;
+        display: flex;    
+        justify-content: center;
+        align-items: center;
+    }
+    .workbackground {
+        background: url(https://img.freepik.com/free-vector/back-school-accesories_86693-134.jpg?w=1060);
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0.1rem;
+}
+
+/*start of aboutus.html*/
+
+.aboutusmidcontainer {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0rem;
+    color: white;
+}
+.aboutusbackground {
+    background: rgb(51,14,14);
+    background: linear-gradient(42deg, rgba(51,14,14,0.8776552857471114) 43%, rgba(0,0,0,0.8356384790244222) 56%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.inc {
+    width: 70%;
+    position: absolute;
+    height: 5vh;
+    flex-direction: row;
+    font-size: 25px;
+    left: 100px;
+    top: 4rem;
+}
+#aboutuslogo {
+    position: absolute;
+    height: 10vh;
+    top: 3rem;
+    left: 30px;
+    border: none;
+    border-radius: 50%;
+}
+/*info*/
+
+.abtinfocontainer {
+    width: 50%;
+    position: relative;
+    height: 80vh;
+    flex-direction: column;
+    display: flex;
+    top: 3rem;
+    margin: 80px;
+    padding: 20px;
+}
+
+.cclinc, .osmena,.landline {
+    margin: 10px 0 0 0
+}
+
+
+.connectwithus {
+    margin: 100px 0 0 0;
+    
+}
+.btnfacebook:hover, .btn-messenger:hover{
+    cursor: grab;
+}
